@@ -1,0 +1,80 @@
+.companyContainer{
+  background-color: rgba(255, 255, 255, 0.93);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  margin-top: 40px;
+  height: calc(90% - 40px);
+  overflow-y: scroll;
+  padding: 2vw;
+  /* transform: translateY(100%);
+  transition: transform 0.4s ease;
+  width: 64vw;   */
+  display: block;
+  width: 75%;
+  margin-left: 25%;
+  top: 5%;
+  position: absolute;
+  transform: translateX(100%);
+  transition: transform 0.6s ease;
+}
+
+.companyContainer h1{
+  font-size: 2vw;
+  margin-bottom: 2vw;
+  padding: 0 1vw;
+  text-transform: uppercase;
+}
+
+.companyContainer p{
+  font-size: 1.5vw;
+  padding-bottom: 0.7vw;
+  text-align: justify;
+}
+
+.companyContainer .divider>p{
+  margin: 0 0 1vw;
+}
+
+.companyContainer .divider img{
+  border: 1px solid #CCC;
+  box-shadow: 0.4vw 0.4vw 4px rgba(0, 0, 0, 0.2);
+  float: right;
+  margin: 1vw 1vw 0vw 1vw;
+  width: 50%;
+}
+
+.border-box {
+  background-color: rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.5vw;
+  box-shadow: 0.1vw 0.1vw 1px rgba(0, 0, 0, 0.1);
+  padding: 1vw;
+  position: relative;
+  margin-bottom: 0.5vw;
+}
+
+.border-box h2 {
+  margin: 0 0 0.5vw;
+  font-size: 28px;
+}
+
+.subcontent {
+  margin-bottom: 1.5vw;
+  padding: 0 1vw;
+}
+
+.subcontent ul.split li {
+  float: left;
+  width: 50%;
+}
+
+ul {
+  font-size: 1.5vw;
+  margin-left: 2vw;
+}
+
+ul li {
+  margin-bottom: 0.5vw;
+}

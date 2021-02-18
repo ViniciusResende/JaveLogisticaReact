@@ -1,0 +1,29 @@
+.container{
+  
+}
+
+svg.logoHome {
+  display: block;
+  height: 200px;
+  width: 500px;
+  position: absolute;
+  transition: all 0.6s ease;  
+  right: 70px;
+  top: 0;
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.4));
+  transition: all 0.6s ease;
+}
+
+div.slogan {
+  color: #12381F;
+  font-size: 2vw;
+  right: -20px;
+  padding-top: 1vw;
+  position: absolute;
+  text-align: center;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.4);
+  top: calc(160px);
+  transition: all 0.6s ease, opacity 0.3s ease;
+  width: 37.04vw;
+  z-index: 1;
+}
