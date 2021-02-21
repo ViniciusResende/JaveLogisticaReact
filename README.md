@@ -42,7 +42,7 @@
 
 ## :rocket: Launching the project:
 
-The only has a frontend page:
+The project only has a frontend page:
 
 :bulb: But, is required that you use a server to have a most flowable experience.
 
@@ -72,6 +72,7 @@ The only has a frontend page:
  
  # Execute the appliction with this command
  $ yarn start
+ $ npm start
  
  # The server will start in the port:3000
  
